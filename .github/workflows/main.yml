@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "PORT=${{ secrets.PORT }}" >> .env
           echo "MONGODB_URL=${{ secrets.MONGODB_URL }}" >> .env
-          echo "AWS_ACCESS_KEY=${{ secrets.AWS_ACCESS_KEY }}" >> .env
+          echo "SECRET=${{ secrets.SECRET }}" >> .env
           echo "ACCESS_SECRET_KEY=${{ secrets.ACCESS_SECRET_KEY }}" >> .env
           echo "ACCESS_TOKEN_EXPIRY=${{ secrets.ACCESS_TOKEN_EXPIRY }}" >> .env
           echo "REFRESH_SECRET_KEY=${{ secrets.REFRESH_SECRET_KEY }}" >> .env
