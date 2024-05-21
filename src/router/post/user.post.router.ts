@@ -29,7 +29,7 @@ export default (dependencies: Dependencies) => {
     getSavedPostsController,
     getPostsFromFollowingController,
     getMonthlyPostCountController,
-    getPostsFromCommunityController
+    getPostsFromCommunityController,
   } = postController(dependencies);
 
   //admin routes
